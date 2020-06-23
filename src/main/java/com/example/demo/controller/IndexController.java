@@ -10,6 +10,12 @@ public class IndexController {
 
 
     @ResponseBody
+    @RequestMapping("/id")
+    public String getById(){
+
+        return "1000";
+    }
+    @ResponseBody
     @RequestMapping("/index")
     public String index(){
 
